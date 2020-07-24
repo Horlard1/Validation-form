@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="top content">
+            <h3>Horlard's Media, an expertise for information <br> and communication technology</h3>
+            <p>Improve  your qualities in web development, graphics designing, data science, machine learning, artificial inteligence amidst others. </p>
+        </div>
+
+        <div class="bottom content">
+            <h3>Sign Up</h3>
+            <p id="affirm"></p>
+            <form action="/majors" id="myform">
+                <div class="ctrl">
+                    <input type="text" name="name" id="username" autocomplete="off" placeholder= "Username..."><img id="icon" src="./image/error-icon.png" alt="error-icon"><small></small>
+                </div>
+                <div class="ctrl">
+                    <input type="email" name="email" id="email" placeholder= "Enter Email" autocomplete="off"><img id="icon" src="./image/error-icon.png" alt="error-icon"><small></small>
+                </div>
+                <div class="ctrl">
+                    <input type="password" name="password" placeholder= "Enter Password" id="password"><img id="icon" src="./image/error-icon.png" alt="error-icon"><small></small>
+                </div>
+                <div class="ctrl">
+                    <input type="password" name="password2" placeholder= "Confirm Password..." id="password2"><img id="icon" src="./image/error-icon.png" alt="error-icon"><small></small>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>
